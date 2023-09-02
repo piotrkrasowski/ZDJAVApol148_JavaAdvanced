@@ -24,4 +24,12 @@ public class Tuple <T> {
     public void setRight(T right) {
         this.right = right;
     }
+
+    @Override
+    public String toString() {
+        return "Tuple{" +
+                "left=" + left +
+                ", right=" + right +
+                '}';
+    }
 }
