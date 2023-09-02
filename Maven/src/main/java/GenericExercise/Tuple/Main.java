@@ -2,13 +2,28 @@ package GenericExercise.Tuple;
 
 public class Main {
     public static void main(String[] args) {
-        Tuple<String> tuple = new Tuple<>("Test","Jeden");
-        System.out.println("Left: "+ tuple.getLeft());
-        System.out.println("Right: "+ tuple.getRight());
+    stringTest();
+    integerTest();
+    }
+    public static void stringTest() {
+        Tuple<String> tuple = new Tuple<>("Testy", "a");
+        System.out.println("Left: " + tuple.getLeft());
+        System.out.println("Right: " + tuple.getRight());
 
-        tuple.setLeft("Pięć");
-        tuple.setRight("Dziewięć");
-        System.out.println("Left: "+ tuple.getLeft());
-        System.out.println("Right: "+ tuple.getRight());
+
+
+
+    }
+
+    public static void integerTest() {
+        Tuple<Integer> tuple = new Tuple<>(40,50);
+        System.out.println("Left: " + tuple.getLeft());
+        System.out.println("Right: " + tuple.getRight());
+
+        System.out.println("Min: " + tuple.getMin());
+        System.out.println("Max: " + tuple.getMax());
+
+
+
     }
 }
