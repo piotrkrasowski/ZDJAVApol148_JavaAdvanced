@@ -2,7 +2,7 @@ package GenericExercise.Tuple;
 
 public class Main {
     public static void main(String[] args) {
-        Tuple<String, String> tuple = new Tuple<>("Test","Jeden");
+        Tuple<String> tuple = new Tuple<>("Test","Jeden");
         System.out.println("Left: "+ tuple.getLeft());
         System.out.println("Right: "+ tuple.getRight());
 
