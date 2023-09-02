@@ -12,11 +12,10 @@ public class Main {
 
 
 
-
     }
 
     public static void integerTest() {
-        Tuple<Integer> tuple = new Tuple<>(40,50);
+        Tuple<Integer> tuple = new Tuple<>(10,5);
         System.out.println("Left: " + tuple.getLeft());
         System.out.println("Right: " + tuple.getRight());
 
