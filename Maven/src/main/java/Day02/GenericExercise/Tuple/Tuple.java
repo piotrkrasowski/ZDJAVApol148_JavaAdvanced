@@ -25,18 +25,10 @@ public class Tuple <T extends Comparable<T>>  {
         this.right = right;
     }
     public T getMax() {
-        if (right.compareTo(left) >= 0) {
-            return right;
-        } else {
-            return left;
-        }
+        return left.compareTo(right) >= 0? left : right;
     }
     public T getMin() {
-        if (right.compareTo(left) <= 0) {
-            return right;
-        } else {
-            return left;
-        }
+        return left.compareTo(right) <= 0? left : right;
     }
 
 
