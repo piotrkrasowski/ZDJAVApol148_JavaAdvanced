@@ -16,7 +16,7 @@ public class Exercise2 {
         System.out.println("Constructors: " + constructors.length);
 
         Method[] numberOfMethods = exercise1Class.getDeclaredMethods();
-        System.out.println("Methods: " + numberOfMethods);
+        System.out.println("Number Of Methods: " + numberOfMethods);
 
         for (Method method : numberOfMethods) {
             String methodName = method.getName();
