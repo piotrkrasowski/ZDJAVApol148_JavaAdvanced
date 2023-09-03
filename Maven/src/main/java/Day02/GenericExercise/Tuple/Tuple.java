@@ -1,4 +1,4 @@
-package GenericExercise.Tuple;
+package Day02.GenericExercise.Tuple;
 
 public class Tuple <T extends Comparable<T>>  {
     private T left;

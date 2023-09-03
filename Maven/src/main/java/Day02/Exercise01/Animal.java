@@ -1,4 +1,4 @@
-package Exercise01;
+package Day02.Exercise01;
 
 public class Animal {
     private int id;

@@ -1,4 +1,4 @@
-package Generic;
+package Day02.Generic;
 
 
 import java.util.Stack;
