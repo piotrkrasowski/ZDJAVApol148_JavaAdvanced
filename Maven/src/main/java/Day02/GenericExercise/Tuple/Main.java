@@ -1,4 +1,4 @@
-package GenericExercise.Tuple;
+package Day02.GenericExercise.Tuple;
 
 public class Main {
     public static void main(String[] args) {

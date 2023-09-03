@@ -1,4 +1,4 @@
-package Exercise03;
+package Day02.Exercise03;
 
 
 interface Stack {
