@@ -1,6 +1,6 @@
 package GenericExercise.Tuple;
 
-public class Tuple <T> {
+public class Tuple <T extends Comparable<T>>  {
     private T left;
     private T right;
 
@@ -24,12 +24,12 @@ public class Tuple <T> {
     public void setRight(T right) {
         this.right = right;
     }
-
-    @Override
-    public String toString() {
-        return "Tuple{" +
-                "left=" + left +
-                ", right=" + right +
-                '}';
+    public T getMax() {
+        return left.compareTo(right) >= 0? left : right;
     }
+    public T getMin() {
+        return left.compareTo(right) <= 0? left : right;
+    }
+
+
 }
